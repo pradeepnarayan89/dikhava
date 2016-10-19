@@ -514,10 +514,10 @@ body {
 @media(min-width:780px) {
 		.w-middle .box {
 			position:relative;
-			top:50%;
+/*			top:50%;
 			-webkit-transform:translateY(-50%);
 			-ms-transform:translateY(-50%);
-			transform:translateY(-50%);
+			transform:translateY(-50%);*/
 	}
 }
 .box h2 {
@@ -543,7 +543,7 @@ body {
 	margin:0;
 	font-size:17px;
 	font-weight:600;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	letter-spacing:1px;
 	padding:20px 20px 5px 20px;
 	text-align:center;
@@ -552,7 +552,7 @@ body {
 	margin:0;
 	padding:0px 20px 15px 20px;
 	font-size:14px;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	font-weight:300;
 	text-align:center;
 }
@@ -602,18 +602,18 @@ body {
 	-o-transform:scaleY(1);
 	-ms-transform:scaleY(1);
 	transform:scaleY(1);
-	-webkit-transition:all .7s ease-in-out;
-	-moz-transition:all .7s ease-in-out;
-	-o-transition:all .7s ease-in-out;
-	-ms-transition:all .7s ease-in-out;
-	transition:all .7s ease-in-out
+	-webkit-transition:all 1.2s ease-in-out;
+	-moz-transition:all 1.2s ease-in-out;
+	-o-transition:all 1.2s ease-in-out;
+	-ms-transition:all 1.2s ease-in-out;
+	transition:all 1.2s ease-in-out
 }
 .view-overlay .mask {
-	-webkit-transition:all .5s linear;
-	-moz-transition:all .5s linear;
-	-o-transition:all .5s linear;
-	-ms-transition:all .5s linear;
-	transition:all .5s linear;
+	-webkit-transition:all 1s linear;
+	-moz-transition:all 1s linear;
+	-o-transition:all 1s linear;
+	-ms-transition:all 1s linear;
+	transition:all 1s linear;
 	-ms-filter:"alpha(opacity=0)";
 	filter:alpha(opacity=0);
 	opacity:0
@@ -630,11 +630,11 @@ body {
 	display:flex;
 }
 .view-overlay:hover img {
-	-webkit-transform:scale(10);
-	-moz-transform:scale(10);
-	-o-transform:scale(10);
-	-ms-transform:scale(10);
-	transform:scale(10);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	transform:scale(1.2);
 	-ms-filter:"alpha(opacity=0)";
 	filter:alpha(opacity=0);
 	opacity:0

@@ -593,6 +593,9 @@ body {
 	text-align:center;
 	background:#222
 }
+.port-zoom-link {
+	max-width: 450px;
+}
 .port-zoom-link p {
 	width:100%;
 }

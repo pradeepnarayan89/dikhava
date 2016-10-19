@@ -1080,7 +1080,7 @@ input.error,textarea.error {
 		background-position:100% !Important;
 	}
 	.portfolio-box img,.team-thumb img {
-		width:100%;
+		/*width:100%;*/
 	}
 	.funfacts {
 		margin-bottom:30px;

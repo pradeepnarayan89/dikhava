@@ -4,6 +4,11 @@ html,body {
 }
 .solutionbg {
 	background-image: url(../img/children.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .tocbg {
 	background-image: url(../img/childcomp.jpg);

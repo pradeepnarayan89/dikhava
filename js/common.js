@@ -119,7 +119,7 @@ for (var i=0; i < taglines.length; i++) {
 
 $(".element").typed({
 	strings: items,
-	typeSpeed: 60,
+	typeSpeed: 1,
 	loop: true,
 	backDelay: 3500,
 	contentType: 'html'

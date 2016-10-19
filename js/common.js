@@ -119,9 +119,9 @@ for (var i=0; i < taglines.length; i++) {
 
 $(".element").typed({
 	strings: items,
-	typeSpeed: 1,
+	typeSpeed: 0,
 	loop: true,
-	backDelay: 3500,
+	backDelay: 3000,
 	contentType: 'html'
 });
 

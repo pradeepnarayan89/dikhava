@@ -13,6 +13,9 @@ html,body {
 .tocbg {
 	background-image: url(../img/childcomp.jpg);
 }
+.agbg {
+	background-image: url(../img/main/abhishek-gupta.png);
+}
 .logoheader {
 	height: 40px;
     margin-top: -10px;
@@ -1052,6 +1055,12 @@ h1.bottombrand:first-letter {
 }
 input.error,textarea.error {
 	border:1px solid red;
+}
+ul.nav-footer {
+	list-style: none;
+}
+ul.nav-footer > li a{
+	color: #909090;
 }
 @media only screen and (max-width:768px) {
 	.wow {

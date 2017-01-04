@@ -18,7 +18,7 @@ html,body {
 }
 .logoheader {
 	height: 40px;
-    margin-top: -10px;
+  margin-top: -10px;
 }
 img.team{
 	max-height: 400px;
@@ -235,7 +235,11 @@ header .header-content .header-content-inner p {
 	margin-top:0;
 	line-height:1.4;
 	font-size:34px;
-	 color:#111;
+	color:#111;
+}
+img.paytm{
+  vertical-align:baseline;
+	height:25px
 }
 .service-box {
 	margin:50px auto 0;

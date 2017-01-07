@@ -2,11 +2,11 @@
 // SmoothScroll for websites v1.3.8 (Balazs Galambosi)
 // Licensed under the terms of the MIT license.
 //
-// You may use it in your theme if you credit me. 
+// You may use it in your theme if you credit me.
 // It is also free to use on any individual website.
 //
 // Exception:
-// The only restriction would be not to publish any  
+// The only restriction would be not to publish any
 // extension for browsers or native application
 // without getting a written permission first.
 //
@@ -124,5 +124,17 @@ $(".element").typed({
 	backDelay: 3000,
 	contentType: 'html'
 });
+var items=[];
+var taglines = $('.tagliness');
+for (var i=0; i < taglines.length; i++) {
+	items.push(taglines[i].innerHTML);
+}
 
+$(".elements").typed({
+	strings: items,
+	typeSpeed: 0,
+	loop: true,
+	backDelay: 3000,
+	contentType: 'html'
+});
 })(jQuery); // End of use strict

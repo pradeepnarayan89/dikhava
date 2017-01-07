@@ -28,14 +28,23 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  (function(i,s,o,g,r,a,m){
+    window['GoogleAnalyticsObject']=ga;
+
+    window[r] = window[r] || function(){
+
+      (window[r].q = window[r].q || []).push(arguments)},
+
+  window[r].l = 1*new Date();
+  a = document.createElement(script),
+  m = document.getElementsByTagName(script)[0];
+  a.async = 1;
+  a.src = www.google-analytics.com/analytics.js;
+  m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-87278976-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </head>
 <body id="page-top">
@@ -101,6 +110,7 @@
 					<span class="tagline">Creating local problem solvers with the right tools &amp; understanding</span>
 				</span>
 			</div>
+
 		<!-- </div> -->
 	</div>
 </div>
@@ -129,9 +139,9 @@
 				<div class="date-icon fa fa-rocket">
 				</div>
 				<div class="tline-item-txt text-right">
-					<h3>1000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+					<h3><span class="spancolor">1000</span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
 					<p>
-You just sponsored all the meals for the entire day for all the 10 students. Who said there are no free lunches? ;) You are an inspiration!
+You just sponsored all the<span class="spancolor">meals</span> for the entire day for all the 10 students. Who said there are no free lunches? ;) You are an inspiration!
 					</p>
 				</div>
 			</div>
@@ -143,10 +153,17 @@ You just sponsored all the meals for the entire day for all the 10 students. Who
 				<div class="date-icon fa fa-camera">
 				</div>
 				<div class="tline-item-txt text-left">
-					<h3>5000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+					<h3><span class="spancolor">5000</span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
 					<p>
-You just sponsored a (mini projector/printer/voice recorder/Raspberry pi/Arduino board) for our learning center. Lots of love for you.
+You just sponsored a <span class="elements spancolor">mini projector</span> for our learning center. Lots of love for you.
 					</p>
+          <span style="display: none;">
+            <span class="tagliness">mini projector</span>
+            <span class="tagliness">printer</span>
+            <span class="tagliness">voice recorder</span>
+            <span class="tagliness">Raspberry pi</span>
+            <span class="tagliness">Arduino board</span>
+          </span>
 				</div>
 			</div>
 			</li>
@@ -157,7 +174,7 @@ You just sponsored a (mini projector/printer/voice recorder/Raspberry pi/Arduino
 				<div class="date-icon fa fa-user">
 				</div>
 				<div class="tline-item-txt text-right">
-					<h3>10000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+					<h3><span class="spancolor">10000</span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
 					<p>
 You just sponsored the higher education of a student for about a month. One month is enough for a student to learn how to build static websites. You are awesome! 					</p>
 				</div>
@@ -170,9 +187,9 @@ You just sponsored the higher education of a student for about a month. One mont
 				<div class="date-icon fa fa-bullhorn">
 				</div>
 				<div class="tline-item-txt text-left">
-					<h3>25000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+					<h3><span class="spancolor">25000<span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
 					<p>
-We love you already for your kindness. You just sponsored the education of one kid every four years. Because of you 15+ kids would have access to a life that they were dared not to dream.</p>
+We love you already for your kindness. You just sponsored the education of one kid every four years. Because of you <span class="spancolor">15+ kids</span> would have access to a life that they were dared not to dream.</p>
 				</div>
 			</div>
 			</li>
@@ -181,7 +198,7 @@ We love you already for your kindness. You just sponsored the education of one k
         <div class="date-icon fa fa-rocket">
         </div>
         <div class="tline-item-txt text-right">
-          <h3>50000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+          <h3><span class="spancolor">50000<span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
           <p>
 You just sponsored the higher education of one kid every two years. Because of you, 30+ students would get access to a future of limitless possibilities</p>
         </div>
@@ -192,9 +209,9 @@ You just sponsored the higher education of one kid every two years. Because of y
         <div class="date-icon fa fa-bullhorn">
         </div>
         <div class="tline-item-txt text-left">
-          <h3>100000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+          <h3><span class="spancolor">100000<span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
           <p>
-With your money, NavGurukul can ensure free higher education and a bright future for one child every year. Imagine the happiness on 50+ kids who would now have access to free higher education, kudos to you. </p>
+With your money, NavGurukul can ensure free higher education and a bright future for<span class="spancolor"> one child every year</span>. Imagine the happiness on 50+ kids who would now have access to free higher education, kudos to you. </p>
       </div>
       </li>
       <li class="tline-item-left wow fadeInLeft">
@@ -202,7 +219,7 @@ With your money, NavGurukul can ensure free higher education and a bright future
         <div class="date-icon fa fa-rocket">
         </div>
         <div class="tline-item-txt text-right">
-          <h3>250000 <i class="fa fa-inr" aria-hidden="true"></i></h3>
+          <h3><span class="spancolor">250000<span> <i class="fa fa-inr" aria-hidden="true"></i></h3>
           <p>
 Kudos, you are a kindness rockstar. Thanks for trusting us with your hard earned money. With this, you have sponsored higher education and a bright future of 5 children every two years</p>
       </div>
@@ -241,7 +258,7 @@ Kudos, you are a kindness rockstar. Thanks for trusting us with your hard earned
           <img src="img/paytm/paytm.jpg" alt="paytm" class="paytm wow bounceIn text-fade" height="50">
         <!-- </a> -->
       <!-- </div> -->
-      <h3><b>Transfer through</b> PayTM</h3>
+      <h3>Transfer through<b> PayTM<b></h3>
       <p class="text-muted">
         Scan the QR Code to pay.
       </p>
@@ -265,7 +282,7 @@ Kudos, you are a kindness rockstar. Thanks for trusting us with your hard earned
           </i>
         </a>
       </div>
-      <h3><b>Transfer through</b> Paypal</h3>
+      <h3>Transfer through<b> Paypal<b></h3>
     </div>
   </div>
 </div>
@@ -273,8 +290,6 @@ Kudos, you are a kindness rockstar. Thanks for trusting us with your hard earned
   <span class="col-lg-6 col-md-6 text-center">
     <p class="text-left">You can also do a IMPS/NEFT/RTGS transfer to the following bank account to avoid the transaction charges.</p>
     <p><b>Name:</b> Navgurukul Foundation for Social Welfare<b><br/>Account  Number:</b> 0512251778<b><br/>IFSC Code:</b> KKBK0004260</p>
-    <a href="https://www.instamojo.com/@navgurukul/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Donate Now"></a>
-    <script src="https://d2xwmjc4uy2hr5.cloudfront.net/im-embed/im-embed.min.js"></script>
   </span>
 </div>
 <!-- end 1st row -->

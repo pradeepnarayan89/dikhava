@@ -242,6 +242,17 @@ img.paytm{
 	height: 90px;
   margin-bottom: -15px;
 }
+img.netbanking{
+	height: 55px;
+}
+.im-checkout .im-powered-link {
+	display: none !important;
+}
+.im-checkout {
+	max-width: none !important;
+	display: flex;
+	justify-content: center;
+}
 .service-box {
 	margin:50px auto 0;
 	max-width:400px;
@@ -338,6 +349,27 @@ img.paytm{
 	color:#fff;
 	background-color:#222;
 }
+.btn-green {
+	border-color:#55b148;
+	color:#fff;
+	background-color:#75c26a;
+	-webkit-transition:all .35s;
+	-moz-transition:all .35s;
+	transition:all .35s;
+}
+.btn-green:hover,.btn-green:focus,.btn-green.focus,.btn-green:active,.btn-green.active,.open>.dropdown-toggle.btn-green {
+	border-color:rgba(85, 177, 72, 0.85);
+	color:#fff;
+	background-color:rgba(117, 194, 106, 0.85);
+}
+.btn-green:active,.btn-green.active,.open>.dropdown-toggle.btn-green {
+	background-image:none;
+}
+.btn-green.disabled,.btn-green[disabled],fieldset[disabled] .btn-green,.btn-green.disabled:hover,.btn-green[disabled]:hover,fieldset[disabled] .btn-green:hover,.btn-green.disabled:focus,.btn-green[disabled]:focus,fieldset[disabled] .btn-green:focus,.btn-green.disabled.focus,.btn-green[disabled].focus,fieldset[disabled] .btn-green.focus,.btn-green.disabled:active,.btn-green[disabled]:active,fieldset[disabled] .btn-green:active,.btn-green.disabled.active,.btn-green[disabled].active,fieldset[disabled] .btn-green.active {
+	border-color:#f05f40;
+	background-color:#f05f40;
+}
+
 .btn-primary {
 	border-color:#f05f40;
 	color:#fff;

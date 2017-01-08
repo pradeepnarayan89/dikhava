@@ -2,6 +2,12 @@ html,body {
 	width:100%;
 	height:100%;
 }
+#team{
+	padding-top: 0px;
+}
+#contribute{
+	padding-bottom: 0px;
+}
 .solutionbg {
 	background-image: url(../img/children.jpg);
     background-repeat: no-repeat;
@@ -10,7 +16,7 @@ html,body {
     -o-background-size: cover;
     background-size: cover;
 }
-.spancolor{
+.highlightedText{
 	color:#f05f40;
 }
 .tocbg {
@@ -34,9 +40,7 @@ img.team{
 .donatebutton{
 	display: flex;
 	justify-content: center;
-	margin-top: -80px;
 	margin-bottom: 30px;
-	z-index:1;
 	cursor: pointer;
 }
 .typed-cursor{
@@ -120,6 +124,7 @@ aside {
 }
 .no-padding {
 	padding:0;
+	z-index:1;
 }
 .navbar-default {
 	border-color:rgba(34,34,34,.05);
@@ -243,7 +248,7 @@ header .header-content .header-content-inner p {
 	}
 }
 .section-heading {
-	margin-top:0;
+	margin-top:40;
 	line-height:1.4;
 	font-size:34px;
 	color:#111;
@@ -367,6 +372,9 @@ img.netbanking{
 	-webkit-transition:all .35s;
 	-moz-transition:all .35s;
 	transition:all .35s;
+}
+.im-checkout-btn {
+	border-radius: 4px !important;
 }
 .btn-green:hover,.btn-green:focus,.btn-green.focus,.btn-green:active,.btn-green.active,.open>.dropdown-toggle.btn-green {
 	border-color:rgba(85, 177, 72, 0.85);
@@ -1050,6 +1058,7 @@ ul .tline-holder>li {
 }
 .tline-start-content {
 	text-align:center;
+	padding-bottom: 35px;
 }
 .tline-start .tline-start-icon {
 	margin:0 auto;

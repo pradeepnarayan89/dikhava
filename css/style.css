@@ -1252,13 +1252,12 @@ ul.nav-footer > li a{
 	letter-spacing: 2px;
 	border:0;
 	font-weight: normal;
-	padding: 6px 12px;
-    	margin-bottom: 0;
-    	vertical-align:middle;
-    	touch-action: manipulation;
-    	cursor: pointer;
-    	user-select: none;
-    	    text-transform: uppercase;
-    	   margin:0;
+    margin-bottom: 0;
+    vertical-align:middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+   	text-transform: uppercase;
+	margin:0;
 }
 

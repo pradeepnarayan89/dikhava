@@ -1251,14 +1251,14 @@ ul.nav-footer > li a{
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	letter-spacing: 2px;
 	border:0;
-	font-weight: 700;
+	font-weight: normal;
 	padding: 6px 12px;
     	margin-bottom: 0;
     	vertical-align:middle;
     	touch-action: manipulation;
     	cursor: pointer;
     	user-select: none;
-    	    text-transform: capitalize;
+    	    text-transform: uppercase;
     	   margin:0;
 }
 

@@ -42,6 +42,7 @@ img.team{
 	justify-content: center;
 	margin-bottom: 30px;
 	cursor: pointer;
+	
 }
 .typed-cursor{
     opacity: 1;
@@ -714,7 +715,7 @@ body {
 {
 	opacity:0;
 }
-	
+
 .view-overlay img, .hover-out-img {
 	-webkit-transform:scaleY(1);
 	-moz-transform:scaleY(1);
@@ -1257,6 +1258,6 @@ ul.nav-footer > li a{
     cursor: pointer;
     user-select: none;
    	text-transform: uppercase;
-	margin:0;
+	margin-left: 10px;
+	    padding: 6px 9px;
 }
-

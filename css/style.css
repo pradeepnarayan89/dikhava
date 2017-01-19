@@ -97,7 +97,7 @@ p {
 
 
 .btn {
-		padding:16px 30px;
+    padding:16px 30px;
 	margin-top:15px;
 }
 .bg-primary {
@@ -626,6 +626,7 @@ body {
 	text-align:center;
 }
 .team-social a {
+    padding: 15px 0px 0px 0px;
 	background:rgba(0,0,0,0.05);
 	height:40px;
 	width:120px;
@@ -633,16 +634,14 @@ body {
 	border-radius:5px;
 	color:#fff;
 	line-height:40px;
-	font-size:15px;
+	font-size:12px;
 	-webkit-transition:all .3s ease-in;
 	-moz-transition:all .3s ease-in;
 	-o-transition:all .3s ease-in;
 	transition:all .3s ease-in;
 	display:inline-block;
-	//margin-bottom:3px;
-	//margin-right:4px;
-	text-decortion:none;
-	line-height:2;
+	text-decoration:none;
+	line-height:1;
 }
 .team-social {
 	padding:0 20px 20px 20px;

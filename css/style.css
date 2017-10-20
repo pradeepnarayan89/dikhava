@@ -8,6 +8,16 @@ html,body {
 #contribute{
 	padding-bottom: 0px;
 }
+.pressimg {
+	display: inline-block;
+	padding: 20px;
+}
+.pressimg img {
+	height: 100px;
+}
+.pressimgdiv {
+	position: relative;
+}
 .solutionbg {
 	background-image: url(../img/children.jpg);
     background-repeat: no-repeat;
@@ -607,6 +617,11 @@ body {
 	color:#fff;
 	border-radius:50%;
 	line-height:90px;
+}
+.teambox {
+	max-width: 300px;
+	min-width: 200px;
+	margin: 20px;
 }
 .teambox h2 {
 	margin:0;

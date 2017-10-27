@@ -390,9 +390,6 @@
 <div class="clearfix"></div>
 <div data-include="footer"></div>
 
-<!-- Section Footer
-================================================== -->
-
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 <script src="js/typed.min.js"></script>
@@ -405,13 +402,13 @@
 <script src="js/common.js"></script>
 
 <script>
-    $(function(){
-        var includes = $('[data-include]');
-        jQuery.each(includes, function(){
-            var file = 'views/' + $(this).data('include') + '.html';
-            $(this).load(file);
-        });
+$(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+        var file = 'views/' + $(this).data('include') + '.html';
+        $(this).load(file);
     });
+});
 </script>
 </body>
 </html>

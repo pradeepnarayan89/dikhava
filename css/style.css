@@ -32,9 +32,6 @@ html,body {
 .tocbg {
 	background-image: url(../img/childcomp.jpg);
 }
-.agbg {
-	background-image: url(../img/main/abhishek-gupta.png);
-}
 .logoheader {
 	height: 40px;
   margin-top: -10px;
@@ -459,8 +456,13 @@ img::-moz-selection {
 body {
 	webkit-tap-highlight-color:#222;
 }
+@media(max-width:700px) {
+	.carousel-caption {
+		top: 15%;
+	}
+}
 .carousel-caption {
-	bottom:25%;
+	bottom: 25%;
 }
 .main-container {
 	padding:40px 15px;

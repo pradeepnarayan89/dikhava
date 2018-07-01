@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>NavGurukul</title>
+<meta property="og:title" content="NavGurukul" />
+<meta property="og:url" content="http://navgurukul.org" />
+<meta property="og:image" content="http://navgurukul.org/img/sqlogo.png" />
+<meta property="og:description" content="NavGurukul is a non-profit initiative to provide a meaningful alternative to the college education. We train youth from humble backgrounds for free in software programming and other aspirational opportunities." />
+<meta name="description" content="NavGurukul is a non-profit initiative to provide meaningful alternative to college education. We train youth from humble backgrounds for free in software programming and other aspirational opportunities." />
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body id="page-top">
+<div data-include="header"></div>
+<!-- Section Intro Slider
+================================================== -->
+<div id="carousel-example-generic" class="carousel intro slide">
+	<div class="carousel-inner" role="listbox">
+		<div class="item active" style="background-image:url(img/coverbg2.jpg)">
+			<div class="carousel-caption">
+				<div>
+					<h2>
+					       <span>
+					       	Hire students graduating out of NavGurukul
+					       </span>
+					</h2>
+					<span>
+						<h3>
+							Hire competitive talent trained to be able to work on live projects &amp; production ready systems.
+						</h3>
+						<h3>
+							Increase the diversity of your work place &amp; serve the society while hiring competitive talent for your Software Engineering requirements.
+						</h3>
+					</span>
+<!-- 					<a href="#about" class="btn btn-primary btn-lg page-scroll" data-animation="animated fadeInRight">Learn More</a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.carousel -->
+
+<!-- Section Team
+================================================== -->
+<section id="team">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2 class="section-heading">List of students you can hire!</h2>
+			<hr class="primary">
+			<h3 style="margin-bottom:30px; line-height:24px;"style="border:none;">Following students are available for hiring.<br>You can contact them directly or mail us at <a href="mailto:tnp@navgurukul.org">tnp@navgurukul.org</a> for bulk hiring or projects.</h3>
+		</div>
+	</div>
+</div>
+<div class="no-padding">
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSMnR8DBfEIab9nbQUy9gJ47Kmw5qIl84Zf3--_BnyDVPmzJRj14QQR-HRfjfc-NIAPCdp6GJg5zq7x/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="650px" frameborder="0"></iframe>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+
+<div data-include="footer"></div>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+        var file = 'views/' + $(this).data('include') + '.html';
+        $(this).load(file);
+    });
+});
+</script>
+</body>
+</html>
